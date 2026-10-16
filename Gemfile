@@ -5,7 +5,7 @@ source "https://rubygems.org"
 ruby RUBY_VERSION
 
 gem "decidim", "0.31.5"
-gem "decidim-dev", "0.31.5"
+#gem "decidim-dev", "0.31.5"
 #gem "decidim-demographics" # "0.31.2"
 # loading any of these modules (in sequeunce) seems to lead to error
 #  = /usr/local/bundle/gems/redis-4.8.1/lib/redis/client.rb:398:in
