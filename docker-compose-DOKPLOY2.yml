@@ -48,7 +48,7 @@ services:
     command: >
        bash -c "
         gem install 'daemons'
-        gem install 'decidim' -v '0.31.5'
+        #gem install 'decidim' -v '0.31.5'
         #gem install 'delayed_job_active_record'
         #gem install 'sidekiq'
         #gem install 'decidim-demographics' 
