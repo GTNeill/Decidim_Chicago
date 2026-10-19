@@ -33,7 +33,7 @@ group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
 
   gem "brakeman", "~> 7.0"
-  gem "decidim-dev", "0.31.5"
+  gem "decidim-dev", "0.31.4"
   gem "net-imap", "~> 0.5.0"
   gem "net-pop", "~> 0.1.1"
 end
