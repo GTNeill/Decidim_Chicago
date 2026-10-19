@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 ruby RUBY_VERSION
 
-gem "decidim", "0.31.5"
+gem "decidim", "0.31.4"
 #gem "decidim-dev", "0.31.5"
 #gem "decidim-demographics" 
 # loading any of these modules (in sequeunce) seems to lead to error
