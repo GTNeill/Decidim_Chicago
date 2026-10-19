@@ -52,7 +52,7 @@ services:
         #gem install 'delayed_job_active_record'
         #gem install 'sidekiq'
         #gem install 'decidim-demographics' 
-        gem install 'decidim-ai' -v '0.31.5'
+        #gem install 'decidim-ai' -v '0.31.5'
         #gem install 'decidim-collaborative_texts'
         #gem install 'decidim-conferences'  
         #gem install 'decidim-design'   
