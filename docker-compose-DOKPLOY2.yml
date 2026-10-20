@@ -71,8 +71,8 @@ services:
         #bundle exec rails db:create db:migrate #|| true &&
         #bin/rails db:migrate
         # possible solution to shakapacker error
-        #npm install
-        #bundle exec rails assets:precompile
+        npm install
+        bundle exec rails assets:precompile
         chmod -R 777 /usr/local/bundle
         bundle exec sidekiq &
         bundle exec rails s -b 0.0.0.0 -p 4000       
