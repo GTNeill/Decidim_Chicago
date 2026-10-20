@@ -5,20 +5,19 @@ source "https://rubygems.org"
 ruby RUBY_VERSION 
 
 gem "decidim", "0.31.4"
-#gem "decidim-dev", "0.31.4"
-#gem "decidim-demographics" 
+# gem "decidim-demographics" 
 # loading any of these modules (in sequeunce) seems to lead to error
 #  = /usr/local/bundle/gems/redis-4.8.1/lib/redis/client.rb:398:in
 # `rescue in establish_connection': Error connecting to Redis on
 # localhost:6379 (Errno::ECONNREFUSED) (Redis::CannotConnectError)
 # these gems commented out in docker compose
 gem "decidim-ai"
-#gem "decidim-collaborative_texts"
-#gem "decidim-conferences" 
-#gem "decidim-design" 
-#gem "decidim-elections" 
-#gem "decidim-initiatives"
-#gem "decidim-templates" 
+# gem "decidim-collaborative_texts"
+# gem "decidim-conferences" 
+# gem "decidim-design" 
+# gem "decidim-elections" 
+gem "decidim-initiatives"
+# gem "decidim-templates" 
 
 gem "bootsnap", "~> 1.3"
 
